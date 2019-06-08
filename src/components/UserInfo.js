@@ -13,7 +13,7 @@ class UserInfo extends React.Component {
         <Button type="warning" 
           onClick={this.props.userStore.increaseTodo} 
           inline 
-          size="small">IncreaseTodo</Button>
+          size="small">IncreaseTodo git test</Button>
         <Button type="warning"
           onClick={this.props.userStore.decreaseTodo} 
           inline
