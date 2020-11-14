@@ -10,6 +10,8 @@ class UserInfo extends React.Component {
     const { user } = this.props.userStore
     return (
       <div>
+        <h2>Hello world, {user.name}</h2>
+        <p>test git stash</p>
         <Button type="warning" 
           onClick={this.props.userStore.increaseTodo} 
           inline 
