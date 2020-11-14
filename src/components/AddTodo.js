@@ -21,7 +21,7 @@ class AddTodo extends React.Component {
 
   handleAddTodo(e) {
     if (!this.state.newTodo.trim()) {
-      Toast.fail('The Content can not be empty', 1)
+      Toast.fail('The Content can not be empty1111', 1)
       return
     }
     this.props.onTodoClick(this.state.newTodo)
